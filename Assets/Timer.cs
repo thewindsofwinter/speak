@@ -26,7 +26,7 @@ public class Timer : MonoBehaviour
     {
 
 
-        // playing = true;
+        playing = true;
         timeFormats.Add(TimerFormats.Whole, "0");
         timeFormats.Add(TimerFormats.Tenths, "00:0");
         timeFormats.Add(TimerFormats.Hunds, "00:00");
